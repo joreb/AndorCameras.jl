@@ -429,7 +429,7 @@ or from Julia's package manager (hit the `]` key in Julia's REPL):
 
 ```julia
 add "https://github.com/emmt/ScientificCameras.jl.git"
-add "https://github.com/emmt/AndorCameras.jl.git"
+add "https://github.com/joreb/AndorCameras.jl.git"
 build AndorCameras
 ```
 
