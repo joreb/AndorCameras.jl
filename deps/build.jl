@@ -1,6 +1,6 @@
 using Libdl
 
-let AT_DIR = get(ENV, "AT_DIR", (Sys.iswindows() ? "C:/Program Files/Andor SDK3" :
+let AT_DIR = get(ENV, "AT_DIR", (Sys.iswindows() ? "C:\\Program Files\\Andor SDK3" :
                                  "/usr/local/andor"))
     hdrname = "atcore.h"
     incdir = ""
