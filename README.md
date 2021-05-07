@@ -421,7 +421,7 @@ you have to clone these repositories:
 ```julia
 using Pkg
 Pkg.clone("https://github.com/emmt/ScientificCameras.jl.git")
-Pkg.clone("https://github.com/emmt/AndorCameras.jl.git")
+Pkg.clone("https://github.com/joreb/AndorCameras.jl.git")
 Pkg.build("AndorCameras")
 ```
 
